@@ -8,8 +8,8 @@
     <artifactId>corail-lib</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>CorailLib</module>
-        <module>NMS_1_7</module>
+        <module>NMS_1_8_8</module>
+        <module>NMS_1_19_2</module>
     </modules>
     <packaging>pom</packaging>
 

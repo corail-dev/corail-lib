@@ -3,8 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/CorailLib/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CorailLib/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NMS_1_7/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NMS_1_7/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NMS_1_19_2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NMS_1_19_2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NMS_1_8_8/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NMS_1_8_8/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
