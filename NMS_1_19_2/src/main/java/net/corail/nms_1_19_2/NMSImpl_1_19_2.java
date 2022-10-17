@@ -1,12 +1,22 @@
 package net.corail.nms_1_19_2;
 
 import net.corail.nms.NMSHandler;
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
+import org.bukkit.World;
 
 public class NMSImpl_1_19_2 implements NMSHandler {
     @Override
-    public void setBlockFast(int x, int y, int z, String world, int id, byte data) {
-        int combined = id + (data << 12);
+    public void setBlockFast(int x, int y, int z, String world, Material material) {
+        int id = getId(material);
+        byte data = (byte) getData(material);
+        int combined = getCombinedId(id, data);
+
+        World w = null;
+        try {w = Bukkit.getWorld(world);} catch (Exception e) {Bukkit.getLogger().severe("[Corail] Invalid world name received, check your world names in configs.");}
+        if (w == null) return;
+
+
     }
 
     @Override

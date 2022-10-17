@@ -5,7 +5,7 @@ import org.bukkit.Material;
 
 public class NMSImpl_1_8_8 implements NMSHandler {
     @Override
-    public void setBlockFast(int x, int y, int z, String world, int id, byte data) {
+    public void setBlockFast(int x, int y, int z, String world, Material material) {
 
     }
 
