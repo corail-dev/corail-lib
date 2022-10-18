@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CorailLib/CorailLib.iml" filepath="$PROJECT_DIR$/CorailLib/CorailLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NMS_1_8_8/NMS_1_8_8.iml" filepath="$PROJECT_DIR$/NMS_1_8_8/NMS_1_8_8.iml" />
     </modules>
   </component>
 </project>

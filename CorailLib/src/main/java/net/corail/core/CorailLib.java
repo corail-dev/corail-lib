@@ -2,7 +2,7 @@ package net.corail.core;
 
 import net.corail.nms.NMSHandler;
 import net.corail.nms.ServerVersion;
-import net.corail.nms_1_8_8.NMSImpl_1_19_2;
+import net.corail.nms_1_19_2.NMSImpl_1_19_2;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class CorailLib extends JavaPlugin {
