@@ -1,3 +1,4 @@
 net\corail\core\CorailLib.class
 net\corail\nms\ServerVersion.class
+net\corail\commands\BlockSetCommand.class
 net\corail\nms\NMSHandler.class

@@ -28,7 +28,7 @@ public class BlockSetCommand implements CommandExecutor {
                 Player player = (Player) sender;
                 Location loc = player.getLocation();
                 World world = loc.getWorld();
-                lib.getHandler().setBlockFast(x, y, z, world.getName(), Material.getMaterial(material));
+                lib.getHandler().setBlockFast(x, y, z, world.getName(), Material.valueOf(material));
                 player.sendMessage("Block test completed.");
             }
         }
