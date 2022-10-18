@@ -21,5 +21,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.spigotmc:spigot-api:1.19.2-R0.1-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="NMS_1_19_2" />
+    <orderEntry type="module" module-name="NMS_1_8_8" />
   </component>
 </module>

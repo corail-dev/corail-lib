@@ -24,4 +24,8 @@ public class CorailLib extends JavaPlugin {
         }
         System.out.println("NMS Handler: " + handler.getRequiredNMSVersion());
     }
+
+    public NMSHandler getHandler() {
+        return handler;
+    }
 }
