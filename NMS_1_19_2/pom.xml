@@ -61,7 +61,7 @@
     <dependencies>
         <dependency>
             <groupId>net.corail</groupId>
-            <artifactId>CorailLib</artifactId>
+            <artifactId>NMSHandler</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

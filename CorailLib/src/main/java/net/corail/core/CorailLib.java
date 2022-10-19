@@ -1,6 +1,7 @@
 package net.corail.core;
 
 import net.corail.commands.BlockSetCommand;
+import net.corail.commands.FindBlockTestCommand;
 import net.corail.nms.NMSHandler;
 import net.corail.nms.ServerVersion;
 import net.corail.nms_1_19_2.NMSImpl_1_19_2;
@@ -9,6 +10,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class CorailLib extends JavaPlugin {
     private NMSHandler handler;
     private BlockSetCommand command;
+    private FindBlockTestCommand findBlockTestCommand;
 
     @Override
     public void onEnable() {
@@ -18,6 +20,8 @@ public class CorailLib extends JavaPlugin {
 
         this.command = new BlockSetCommand(this);
         getCommand("setblock").setExecutor(command);
+        this.findBlockTestCommand = new FindBlockTestCommand(this);
+        getCommand("findblocktest").setExecutor(findBlockTestCommand);
     }
 
     private void decideNMSHandler() {

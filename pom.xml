@@ -10,6 +10,8 @@
     <modules>
         <module>NMS_1_8_8</module>
         <module>NMS_1_19_2</module>
+        <module>NMSHandler</module>
+        <module>CorailLib</module>
     </modules>
     <packaging>pom</packaging>
 

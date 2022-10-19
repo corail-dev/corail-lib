@@ -22,7 +22,7 @@ public class BlockSetCommand implements CommandExecutor {
             int x = Integer.parseInt(args[0]);
             int y = Integer.parseInt(args[1]);
             int z = Integer.parseInt(args[2]);
-            String material = args[3];
+            String material = args[3].toUpperCase();
 
             if (sender instanceof Player) {
                 Player player = (Player) sender;

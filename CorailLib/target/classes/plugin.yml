@@ -4,3 +4,4 @@ main: net.corail.core.CorailLib
 api-version: 1.13
 commands:
   setblock:
+  findblocktest:
