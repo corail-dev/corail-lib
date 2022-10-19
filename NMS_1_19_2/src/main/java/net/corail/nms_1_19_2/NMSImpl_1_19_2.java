@@ -16,6 +16,7 @@ import org.bukkit.craftbukkit.v1_19_R1.util.CraftMagicNumbers;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class NMSImpl_1_19_2 implements NMSHandler {
     @Override
@@ -53,6 +54,11 @@ public class NMSImpl_1_19_2 implements NMSHandler {
             }
         }
         return list;
+    }
+
+    @Override
+    public Map<Material, List<Vector3>> findBlocksInChunk(Chunk chunk, Material... materials) {
+        return null;
     }
 
     @Override

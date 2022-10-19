@@ -6,6 +6,7 @@ import org.bukkit.Chunk;
 import org.bukkit.Material;
 
 import java.util.List;
+import java.util.Map;
 
 public class NMSImpl_1_8_8 implements NMSHandler {
     @Override
@@ -15,6 +16,11 @@ public class NMSImpl_1_8_8 implements NMSHandler {
 
     @Override
     public List<Vector3> findBlocksInChunk(Material material, Chunk chunk) {
+        return null;
+    }
+
+    @Override
+    public Map<Material, List<Vector3>> findBlocksInChunk(Chunk chunk, Material... materials) {
         return null;
     }
 
