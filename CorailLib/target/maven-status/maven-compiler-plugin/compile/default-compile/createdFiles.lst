@@ -1,3 +1,7 @@
-net\corail\core\CorailLib.class
-net\corail\commands\BlockSetCommand.class
+net\corail\api\CorailPlugin.class
 net\corail\commands\FindBlockTestCommand.class
+net\corail\api\CorailEvent.class
+net\corail\loader\JavaPluginLoader.class
+net\corail\core\CorailLib.class
+net\corail\api\CorailEventForwarder.class
+net\corail\commands\BlockSetCommand.class

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CorailExamplePlugin" />
         <module name="NMS_1_19_2" />
         <module name="NMS_1_8_8" />
         <module name="NMSHandler" />

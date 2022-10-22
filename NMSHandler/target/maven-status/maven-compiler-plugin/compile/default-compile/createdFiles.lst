@@ -1,3 +1,9 @@
-net\corail\nms\NMSHandler.class
+net\corail\nms\entity\events\NMSEntityCreateEvent.class
 net\corail\nms\ServerVersion.class
+net\corail\nms\entity\events\NMSEntityDeathEvent.class
+net\corail\nms\entity\NMSEntity.class
+net\corail\nms\NMSHandler.class
+net\corail\nms\entity\EntityTypes.class
 net\corail\nms\Vector3.class
+net\corail\nms\entity\events\NMSEntityDamageEvent.class
+net\corail\nms\entity\events\NMSEntitySpawnEvent.class
